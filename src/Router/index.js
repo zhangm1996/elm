@@ -28,6 +28,7 @@ const router = <Router>
                 <Route path="/find" component={Find}/>
                 <Route path="/order" component={Order}/>
                 <Route path="/my" component={My}/>
+               
                 {/* <Route path="/center" component={Center}/> */}
 
                 {/* 路由拦截 */}
@@ -37,6 +38,9 @@ const router = <Router>
                 <Route path="/detail/:id" component={Detail}/>
                 <Route path="/search" component={Search}/>
                 <Route path="/quality" component={Quality}/>
+                <Redirect from="/quality" to="/quality/全部类别"/>
+
+                
 
                 {/* 2- query路由配置 */}
                 {/* <Route path="/detail" component={Detail}/> */}

@@ -1,11 +1,15 @@
-import React,{Component} from 'react'
-
-class Quality extends Component{
-    render(){
-        return <div>
-            Quality
-        </div>
-    }
+import React, { Component } from 'react'
+import Headers from './components/Header'
+import Section from './components/Section'
+class Quality extends Component {
+  render() {
+    return (
+      <div>
+        <Headers />
+        <Section />
+      </div>
+    )
+  }
 }
 
-export default Quality;
+export default Quality
