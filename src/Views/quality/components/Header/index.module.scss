@@ -1,9 +1,20 @@
+.ddiv {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  overflow-x: scroll;
+  height: .8rem;
+  white-space: nowrap;
+  z-index: 100;
+}
+
 .div {
   text-align: center;
   background: #fff;
   position: relative;
   width: 100%;
-  height: 0.8rem;
+
 
   .ul {
     padding: 0 0.24rem;
@@ -23,7 +34,7 @@
       line-height: 0.8rem;
       height: 0.8rem;
 
-      a {
+      span {
         font-size: .3rem;
         color: #999;
         display: inline-block;

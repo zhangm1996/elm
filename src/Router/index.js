@@ -38,7 +38,7 @@ const router = <Router>
                 <Route path="/detail/:id" component={Detail}/>
                 <Route path="/search" component={Search}/>
                 <Route path="/quality" component={Quality}/>
-                <Redirect from="/quality" to="/quality/全部类别"/>
+               
 
                 
 
