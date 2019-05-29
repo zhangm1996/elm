@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';// 操作dom库
 
 import router from './Router'
 
-import 'antd/dist/antd.css';
+import 'antd-mobile/dist/antd-mobile.css';
 //jsx 语法
 
 ReactDOM.render(router, document.getElementById('root'));

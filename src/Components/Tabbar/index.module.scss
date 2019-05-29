@@ -1,13 +1,20 @@
-.act{
-    color:#1890ff;
-}
 
-ul{
+
+.active{
+    .act{
+        color:#1890ff;
+    }
+    height: 40px;
+    margin: 0;
     display: flex;
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
+    background: white;
+    z-index: 999;
     li{
+        line-height: 40px;
         flex: 1;
         text-align: center;
         a{

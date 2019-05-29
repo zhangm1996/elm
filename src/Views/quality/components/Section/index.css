@@ -1,0 +1,71 @@
+._3vyGT {
+  position: relative;
+}
+
+.juQ4h {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  min-height: 50vh;
+  width: 100%;
+}
+
+._1UG_2 {
+  transition: opacity .5s cubic-bezier(.55, 0, .1, 1), -webkit-transform .5s cubic-bezier(.55, 0, .1, 1);
+  transition: opacity .5s cubic-bezier(.55, 0, .1, 1), transform .5s cubic-bezier(.55, 0, .1, 1);
+  transition: opacity .5s cubic-bezier(.55, 0, .1, 1), transform .5s cubic-bezier(.55, 0, .1, 1), -webkit-transform .5s cubic-bezier(.55, 0, .1, 1);
+}
+
+._2pelX,
+._3jiW_ {
+  border-top: 0 none;
+}
+
+._3gTUf {
+  border-top: 1px solid #eee;
+  min-height: 11.73333vw;
+  font-size: 2.66667vw;
+}
+
+.lMVSN {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-height: 10.66667vw;
+  background-color: #fff;
+  color: #666;
+  font-size: 3.2vw;
+}
+
+._1nrY_ {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+._1nrY_ img {
+  display: block;
+  width: 53.33333vw;
+}
+
+._1nrY_ h3 {
+  margin: 3.33333vw 0 2.66667vw;
+  color: #6a6a6a;
+  font-weight: 400;
+  font-size: 4.53333vw;
+}
+
+._1nrY_ p {
+  margin: 0 0 3.33333vw;
+  color: #999;
+  font-size: 3.06667vw;
+}

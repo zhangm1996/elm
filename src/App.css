@@ -3,10 +3,14 @@
   padding: 0;
  }
 
- html,body{
+ html{
   height: 100%;
+ 
  }
-
+ #root{
+   font-size: 0.16rem;
+  padding-bottom: 40px;
+ }
  ul,li{
   list-style: none;
  }

@@ -1,0 +1,43 @@
+.sort{
+    display: flex;
+    justify-content:space-between;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    border-bottom: 1px solid #ccc;
+    .colorBlock{
+        color: #333;
+        font-weight: 700;
+    }
+    div{
+        width: 25%;
+        height: 30px;
+        line-height: 30px;
+    }
+    .choice{
+        position: relative;
+        p{
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap; 
+        }
+        ul{
+            position: absolute;
+            z-index: 9;
+            left: -20px;
+            top: 31px;
+            background: white;
+            text-align: left;
+            width: 375px;
+            li{
+                height: 30px;
+                line-height: 30px;
+                padding-left: 35px;
+            }
+            .active{
+                color: #3190e8;
+            }
+        }
+    }
+}

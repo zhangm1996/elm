@@ -9,6 +9,8 @@ import Detail from '../Views/detail';
 import Search from '../Views/search';
 import Quality from '../Views/quality';
 import My from '../Views/my';
+import Result from '../Views/search/result';
+
 const router = <Router>
         <App>
             <Switch>
@@ -16,15 +18,13 @@ const router = <Router>
                     //遇到第一个匹配路径的组件 就停止
                 }
                 <Route path="/homepage" component={Homepage}/>
-                {/* <Route path="/film" render={()=>
-                    <Film>
+                <Route path="/search" render={()=>
+                    <Search>
                         <Switch>
-                            <Route path="/film/nowplaying" component ={Nowplaying}/>
-                            <Route path="/film/comingsoon" component = {Comingsoon}/>
-                            <Redirect from="/film" to="/film/nowplaying"/>
+                            <Route path="/search/result/:id" component ={Result}/>
                         </Switch>
-                    </Film>
-                }/> */}
+                    </Search>
+                }/>
                 <Route path="/find" component={Find}/>
                 <Route path="/order" component={Order}/>
                 <Route path="/my" component={My}/>
@@ -37,6 +37,7 @@ const router = <Router>
                 <Route path="/detail/:id" component={Detail}/>
                 <Route path="/search" component={Search}/>
                 <Route path="/quality" component={Quality}/>
+               
 
                 {/* 2- query路由配置 */}
                 {/* <Route path="/detail" component={Detail}/> */}

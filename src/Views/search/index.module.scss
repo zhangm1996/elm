@@ -1,0 +1,45 @@
+.search{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 0.1rem;
+    box-sizing: border-box;
+    z-index: 999;
+    input{
+        outline: none;
+        padding: 0.05rem 0.2rem;
+        border: none;
+        background: #eee;
+        width: 2rem;
+   }
+    button{
+        border: none;
+        background: white;
+        outline: none;
+        font-size: 0.16rem;
+   }
+}
+.hot{
+    padding-top: 0.48rem;
+    padding-left: 0.1rem;
+    h3{
+        color: #666;
+   }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            margin:0.1rem 0.15rem 0.1rem 0;
+            background: #eee;
+            font-size: 0.14rem;
+            color: #666;
+            height: 0.24rem;
+            padding: 0.05rem 0.1rem;
+            line-height: 0.24rem;
+       }
+   }
+}

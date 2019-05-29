@@ -1,0 +1,183 @@
+img{
+    display: block 
+}
+.result{
+    padding-top: 0.8rem;
+    overflow: hidden;
+    .block{
+        display: flex;
+        padding: 0.15rem 0.1rem;
+        box-sizing: border-box;
+        img.left{
+            width: 0.65rem;
+            height: 0.65rem;
+       }
+        .right{
+            margin-left: 0.1rem;
+            h3{
+                font-size: 0.15rem;
+                color: #333;
+           }
+            .star{
+                display: flex;
+                align-items: center;
+                p{
+                    margin-right: 0.05rem;
+                    font-size: 0.12rem;
+                    color: #999;
+               }
+                .box{
+                    position: relative;
+                    width: 0.56rem;
+                    margin-right: 0.05rem;
+                    img{
+                        width: 0.56rem;
+                   }
+                    .two{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        overflow: hidden;
+                   }
+               }
+           }
+            .send{
+                width: 2.79rem;
+                display: flex;
+                justify-content: space-between;
+                div{
+                    display: flex;
+                    font-size: 0.12rem;
+                    color: #999;
+                    span{
+                        margin: 0 0.05rem;
+                        font-size: 0.1rem 
+                   }
+               }
+           }
+            .support_tags{
+                display: flex;
+                font-size: 0.12rem;
+                color: #999;
+                li{
+                    border: 1px solid #ddd;
+                    padding: 0.02rem;
+                    margin-right: 0.05rem;
+               }
+           }
+            .activities{
+                margin: 0.15rem 0;
+                li{
+                    font-size: 0.12rem;
+                    color: #999;
+                    display: flex;
+                    margin-bottom: 0.05rem;
+                    span{
+                        display: block;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                   }
+                    span:nth-of-type(1){
+                        color: white;
+                        padding: 0 0.02rem;
+                        font-size: 0.12rem;
+                        margin-right: 0.1rem;
+                   }
+                    span:nth-of-type(2){
+                        width: 2rem;
+                   }
+               }
+           }
+            .foods{
+                display: flex;
+                flex-wrap: wrap;
+                padding-bottom: 0.15rem;
+                position: relative;
+                li.look{
+                    position: absolute;
+                    bottom: 0rem;
+                    left: 0;
+                    background: white;
+                    z-index: 2;
+                    width: 2.8rem;
+                    text-align: center;
+               }
+                li{
+                    // margin-bottom: 0.01rem;
+                    margin-right: 0.05rem;
+                    font-size: 0.12rem;
+                    color: #999;
+                    p{
+                        width: 0.88rem;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        margin-bottom: 0.05rem;
+                   }
+                    p:nth-of-type(2){
+                        color: #ff5339;
+                        font-size: 0.14rem;
+                   }
+               }
+           }
+            ul{
+                li{
+                    img{
+                        width: 0.88rem;
+                        height: 0.88rem;
+                   }
+               }
+           }
+       }
+   }
+}
+.sort{
+    position: fixed;
+    top: 0.48rem;
+    left: 0;
+    background: white;
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    padding: 0 0.2rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #888;
+    border-bottom: 0.01rem solid #ccc;
+    .colorBlock{
+        color: #333;
+        font-weight: 700;
+   }
+    div{
+        width: 25%;
+        height: 0.3rem;
+        line-height: 0.3rem;
+   }
+    .choice{
+        position: relative;
+        p{
+            overflow: hidden;
+            text-overflow:ellipsis;
+            white-space:nowrap;
+       }
+        ul{
+            position: absolute;
+            z-index: 9;
+            left: -0.2rem;
+            top: 0.31rem;
+            background: white;
+            text-align: left;
+            width: 3.75rem;
+            li{
+                height: 0.3rem;
+                line-height: 0.3rem;
+                padding-left: 0.35rem;
+           }
+            .active{
+                color: #3190e8;
+           }
+       }
+   }
+}
